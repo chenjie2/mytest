@@ -1,0 +1,9 @@
+---
+applications:
+- name: apitest1
+  memory: 256M
+  instances: 1
+  host: apitest1
+  domain: cfapps.io
+  path: target/mytest-0.0.1-SNAPSHOT.war
+
